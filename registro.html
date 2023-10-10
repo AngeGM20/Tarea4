@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Registro</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='registro.css'>
+
+</head>
+<body>
+    <div class="container">
+        <form method="post">
+            <h1>REGISTRO</h1>
+            <div>
+                <input type="text" placeholder="Nombre" required="true" />
+                <input type="text" placeholder="Apellidos" required="true" />
+                <input type="text" placeholder="Cedula" required="true" />
+                <input type="text" placeholder="Correo" required="true" />
+                <select> 
+                    <option>Genero</option>
+                    <option>Masculino</option>
+                    <option>Femenino</option>
+                </select>
+            </div>
+            <div>
+                <input type="password" placeholder="Password" required="true" />
+            </div>
+            <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            <input type="submit" class="btnRegistrar" onclick="location.href='login.html'" value="Registrar" />
+            </a>
+        </form>
+    </div>
+</body>
+</html>
